@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+</head>
+<body>
+    <input type="text" name="tenho" value="Bùi Đình Hiếu" key="abc">
+    <input type="text" name="hoten" value="Nguyễn Thành Nhân">
+    
+
+    <button type="button">Click here</button>
+
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                var a = $("input[key='abc']").val();
+                alert(a);
+            });
+        });
+    </script>
+
+</body>
+</html>
+
